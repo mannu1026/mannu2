@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <h1> <u>Basic Calculator</u> </h1>
+    <div class="container">
+        <input  id = "solution" placeholder="0">
+        <div class="buttons">
+            
+             <div>
+                 <button class = "btn" style=color:rgb(255,255,255) onclick="appendNumber('7')">7</button>
+                 <button class = "btn" style=color:rgb(255,255,255) onclick="appendNumber('8')">8</button>
+                 <button class = "btn" style=color:rgb(255,255,255) onclick="appendNumber('9')">9</button>
+                 <button class = "btn operator" style=color:orange  onclick="clearSolution('C')">C</button>  
+             </div>
+             <br>
+              <div>
+                 <button class = "btn" style=color:rgb(255,255,255) onclick="appendNumber('4')">4</button>
+                 <button class = "btn" style=color:rgb(255,255,255) onclick="appendNumber('5')">5</button>
+                 <button class = "btn" style=color:rgb(255,255,255) onclick="appendNumber('6')">6</button>
+                 <button class = "btn operator" style=color:orange onclick="setOperation('-')">-</button>   
+             </div>
+             <br>
+             <div>
+                 <button class = "btn" style=color:rgb(255,255,255) onclick="appendNumber('1')">1</button>
+                 <button class = "btn" style=color:rgb(255,255,255) onclick="appendNumber('2')">2</button>
+                 <button class = "btn" style=color:rgb(255,255,255) onclick="appendNumber('3')">3</button>
+                 <button class = "btn operator" style=color:orange onclick="setOperation('/')">/</button>
+             </div>
+             <br>
+             <div>
+                 <button class = "btn" style=color:rgb(255,255,255) onclick="appendNumber('0')">0</button>
+                 <button class = "btn operator" style=color:orange onclick="calculateResult('=')">=</button>
+                 <button class = "btn operator" style=color:orange onclick="setOperation('*')">*</button>
+                  <button class = "btn operator" style=color:orange onclick="setOperation('+')">+</button>
+             </div>
+
+        </div>
+    </div>
+
+    <script src="calc.js"></script>
+    
+</body>
+
+</html>

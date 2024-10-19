@@ -1,0 +1,67 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 400;
+    font-size: larger;
+    color: rgb(44, 124, 194);
+    text-align: center;
+    padding: 50px;
+    margin: 100px;
+    background: linear-gradient(45deg, #0a0a0a, #3a4452) ;
+}
+.container{
+    height: 505px;
+    width : 1055px;
+    margin-left: 70px;
+    border: 2.5px solid rgb(11, 232, 244);
+    justify-content: space-evenly;
+    background-color: none ;
+    box-shadow: 4px 4px 4px;
+    border-radius: 15px;
+}
+
+#solution{
+    height: 83px;
+    width : 1040px;  
+    border-radius: 20px;
+    margin-top: 3px;
+    margin-left: 3px;
+    margin-right: 0px;
+    font-size: 30px;
+    font-weight: 600;
+    initial-value: 0;
+    text-align: right;
+
+}
+
+.btn{
+    height: 75px;
+    width: 250px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+    font-size: 30px;
+    font-weight: 600;
+    border: 0px;
+    border-radius: 10px;
+    margin-top: 8px;
+    margin-left: 3px;
+    cursor: pointer;
+    background: transparent;
+    box-shadow: 4px 4px 4px;
+}
+.btn:hover{
+    background-color: rgb(44, 124, 194);
+   
+}
+.btn operator{
+    height: 75px;
+    width: 250px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+    font-size: 30px;
+    font-weight: 600;
+    border: 0px;
+    border-radius: 10px;
+    margin-top: 8px;
+    margin-left: 3px;
+    cursor: pointer;
+    background: transparent;
+    box-shadow: 4px 4px 4px;
+}
